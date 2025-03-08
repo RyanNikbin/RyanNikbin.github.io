@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ryan Nikbin's Portfolio and Projects">
+    <title>Ryan Nikbin - Pentester</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .description {
+            color: #d3c8c8;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        /* Icon styling */
+        #contact ion-icon {
+            font-size: 30px; /* Base icon size */
+            margin-right: 8px;
+            vertical-align: middle;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Individual icon colors */
+        #contact a.youtube ion-icon { /* Keep YouTube red */
+            color: #FF0000;
+        }
+
+        #contact a.github ion-icon { /* GitHub color (black or gray) */
+            color: #333333;
+        }
+
+        #contact a.medium ion-icon { /* Medium custom green */
+            color: #00ab6c;
+        }
+
+        #contact a.instagram ion-icon { /* Instagram gradient-like color */
+            color: #E1306C;
+        }
+
+        /* Hover effects (excluding YouTube, which stays red) */
+        #contact a.github:hover ion-icon {
+            color: #6e5494; /* GitHub hover purple */
+        }
+
+        #contact a.medium:hover ion-icon {
+            color: #007e50; /* Medium darker green hover */
+        }
+
+        #contact a.instagram:hover ion-icon {
+            color: #c13584; /* Instagram lighter pink hover */
+        }
+
+        /* Footer social icons */
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+
+        footer .social-icons ion-icon {
+            font-size: 36px; /* Larger footer icons */
+            color: #555; /* Neutral footer icon color */
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer .social-icons a:hover ion-icon {
+            color: #ff4500; /* Change icon color on hover in footer */
+        }
+
+        footer p {
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Ryan Nikbin</h1>
+    <p class="description">Pentester | Data Enthusiast | Web Developer | Security Enthusiast</p>
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:realryannikbin@gmail.com">realryannikbin@gmail.com</a></p>
+        <p><strong>Phone:</strong> ‪(304) 410-0364‬</p>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>I am currently studying Education at Cross Lanes Christian, with an expected graduation in May 2026.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Python, SQL, Bash Scripting</li>
+            <li><strong>Data Science:</strong> Pandas and Matplotlib with the Python module</li>
+            <li><strong>Web Development:</strong> PHP, Composer, Web Design with HTML</li>
+            <li><strong>Database Management:</strong> MongoDB, SQL</li>
+            <li><strong>Penetration Testing:</strong> PWK OSCP, Security Tools</li>
+            <li><strong>GUI Applications:</strong> Basic proficiency in Excel, Word, PowerPoint</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Independent Programming Project:</strong> Recorded YouTube videos, troubleshooting with insights from contacts and sharing solutions with the audience.</li>
+            <li><strong>Python Development:</strong> Developed projects using Pandas, Matplotlib, and OS for data analysis and automation tasks.</li>
+            <li><strong>Linux Administration:</strong> Managed Linux servers and handled configurations, including system maintenance and optimization.</li>
+            <li><strong>Penetration Testing & Security:</strong> Hands-on experience with PWK OSCP, performing security assessments, vulnerability exploitation, and ethical hacking to identify and mitigate security risks.</li>
+            <li><strong>PHP Web Development:</strong> Worked on a PHP project with Sniper and Composer, managing dependencies and creating dynamic and static websites.</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Not yet published.</p>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+        <h2>Blogs & Reports</h2>
+        <ul>
+            <li><a href="#">Report 1 - Coming Soon</a></li>
+            <li><a href="#">Report 2 - Coming Soon</a></li>
+        </ul>
+    </section>
+
+    <!-- Media Activities -->
+    <section id="contact">
+        <h2>My Media Activities</h2>
+
+        <!-- YouTube Icon -->
+        <p>
+            <a href="https://www.youtube.com/@ryan_nikbin" class="youtube" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+                My YouTube Channel
+            </a>
+        </p>
+
+        <!-- GitHub Icon -->
+        <p>
+            <a href="https://github.com/ryan_nikbin" class="github" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+                My GitHub Repositories
+            </a>
+        </p>
+
+        <!-- Medium Icon -->
+        <p>
+            <a href="https://medium.com/@shawhin" class="medium" target="_blank">
+                <ion-icon name="logo-medium"></ion-icon>
+                My Website Blog
+            </a>
+        </p>
+
+        <!-- Instagram Icon -->
+        <p>
+            <a href="https://www.instagram.com/your_instagram_username" class="instagram" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+                My Instagram
+            </a>
+        </p>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Ryan Nikbin. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
